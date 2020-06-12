@@ -9,7 +9,7 @@ $main-color: black;
 
 .group {
   position: relative;
-  margin: 45px 0;
+  // margin: 45px 0;
 
   .form-input {
     background: none;
@@ -22,7 +22,7 @@ $main-color: black;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid $sub-color;
-    margin: 25px 0;
+    margin-bottom: 25px;
 
     &:focus {
       outline: none;
@@ -51,4 +51,8 @@ $main-color: black;
       @include shrinkLabel();
     }
   }
+}
+
+span {
+  margin-bottom: 25px;
 }
