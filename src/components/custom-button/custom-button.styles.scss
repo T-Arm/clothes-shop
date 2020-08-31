@@ -48,5 +48,28 @@
     margin: 10px 0;
     width: 100%;
     padding: 0;
+
+    &:hover {
+      background: black;
+      border: none;
+      color: white;
+    }
+
+    &.google-sign-in{
+
+      &:hover {
+        background: #4285f4;
+        border: none;
+        color: white;
+      }
+    }
+
+    &.inverted {
+
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
   }
 }

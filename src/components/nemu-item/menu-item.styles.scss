@@ -72,5 +72,13 @@
 @media screen and (max-width: 800px) {
   .menu-item {
     width: 85vw;
+    
+    &:hover {
+
+      .background-image {
+        transform: scale(1);
+        transition: 0;
+      }
+    }
   }  
 }

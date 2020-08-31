@@ -57,6 +57,12 @@
     width: 90%;
     margin-bottom: 25px;
 
+    &:hover {
+      .image{
+        opacity: 1;
+      }
+    }
+
     .custom-button {
       display: block;
       width: 90%;

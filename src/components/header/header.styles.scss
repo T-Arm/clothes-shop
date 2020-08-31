@@ -35,24 +35,3 @@
     }
   }
 }
-
-@media screen and (max-width: 300px) {
-  .header {
-    flex-direction: column;
-    justify-content: center;
-
-    .logo-container {
-      width: 100%;
-      justify-content: center;
-
-      .logo {
-        margin-left: 40%;
-      }
-    }
-
-    .options {
-      width: 100%;
-      justify-content: center;
-    }
-  }
-}
