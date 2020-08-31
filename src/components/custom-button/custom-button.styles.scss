@@ -1,5 +1,4 @@
 .custom-button {
-  min-width: 165px;
   width: auto;
   height: 50px;
   letter-spacing: 0.5px;
@@ -41,5 +40,13 @@
       background-color: black;
       color: white;
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .custom-button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 0;
   }
 }

@@ -1,10 +1,11 @@
 .collection-item {
-  width: 22vw;
+  width: 300px;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
   position: relative;
+  margin: 0 10px;
 
   &:hover {
     .image {
@@ -47,6 +48,18 @@
 
     .price {
       width: 10%;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .collection-item {
+    width: 90%;
+    margin-bottom: 25px;
+
+    .custom-button {
+      display: block;
+      width: 90%;
     }
   }
 }

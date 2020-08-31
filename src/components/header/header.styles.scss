@@ -24,3 +24,35 @@
     }
   }
 }
+
+
+@media screen and (max-width: 800px) {
+  .header .options {
+    width: 70%;
+
+    .option {
+      padding: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+
+    .logo-container {
+      width: 100%;
+      justify-content: center;
+
+      .logo {
+        margin-left: 40%;
+      }
+    }
+
+    .options {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
